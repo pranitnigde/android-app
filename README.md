@@ -1,5 +1,5 @@
-#Lonavala City Guide
-## Software Used: ## Android Studio, SQLite, RoomDataBase
+# Lonavala City Guide
+## Software Used: Android Studio, SQLite, RoomDataBase
 ## Main Features:
    Provides a detail idea about the Lonavala city.
    Provided validations to the Registration, Login page, Daily Planner.
