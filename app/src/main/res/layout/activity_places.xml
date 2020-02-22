@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".place.view.PlacesActivity">
+
+    <fragment
+        android:id="@+id/placefrag"
+        android:name="com.example.lonavalacityguide.place.fragment.PlaceFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_place" />
+
+    <fragment
+        android:id="@+id/detailplacefrag"
+        android:name="com.example.lonavalacityguide.place.fragment.PlaceDetailFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_hotel_detail" />
+</LinearLayout>

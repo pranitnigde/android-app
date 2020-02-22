@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".theatre.view.TheatreActivity">
+
+
+    <fragment
+        android:id="@+id/TheatreFragment"
+        android:name="com.example.lonavalacityguide.theatre.fragment.TheatreFrag"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_theatre" />
+
+    <fragment
+        android:id="@+id/theatreDetailFragment"
+        android:name="com.example.lonavalacityguide.theatre.fragment.TheatreDetailFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_theatre_detail" />
+</LinearLayout>
